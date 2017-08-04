@@ -9,6 +9,9 @@ Running `bundle check` by itself updates the lockfile. But what I really want is
 detect the error quickly during CI so the developer knows to `bundle update` and commit
 the lockfile change.
 
+Running `bundle install --deployment` in CI is a workaround, but it is slow since the bundle
+actually gets built.
+
 # Repro
 
 ```
