@@ -1,5 +1,7 @@
 # Background
 
+https://github.com/bundler/bundler/issues/5918#issuecomment-319981525
+
 This repo reproduces the state where the version in the `Gemfile` was updated but the
 developer forgot to run bundle update.
 
